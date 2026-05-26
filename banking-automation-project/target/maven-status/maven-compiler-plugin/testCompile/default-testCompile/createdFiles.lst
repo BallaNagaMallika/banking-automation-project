@@ -1,0 +1,5 @@
+com\vit\banking_automation_project\tests\RegistrationTest.class
+com\vit\banking_automation_project\tests\AccountTest.class
+com\vit\banking_automation_project\tests\ApiTest.class
+com\vit\banking_automation_project\tests\TransferTest.class
+com\vit\banking_automation_project\tests\TransactionHistoryTest.class
