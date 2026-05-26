@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="11" passed="11" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2026-05-26T07:32:24 IST" name="Enterprise Banking Suite" finished-at="2026-05-26T07:34:43 IST" duration-ms="138941">
+    <groups>
+    </groups>
+    <test started-at="2026-05-26T07:32:24 IST" name="Banking Management Tests" finished-at="2026-05-26T07:34:43 IST" duration-ms="138941">
+      <class name="com.vit.bankingManagement.tests.OpenAccountTest">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.vit.bankingManagement.tests.OpenAccountTest@5fb759d6]" started-at="2026-05-26T07:32:55 IST" name="setUp" finished-at="2026-05-26T07:32:57 IST" duration-ms="2446" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="verifyOpenAccount()[pri:4, instance:com.vit.bankingManagement.tests.OpenAccountTest@5fb759d6]" started-at="2026-05-26T07:32:57 IST" name="verifyOpenAccount" finished-at="2026-05-26T07:33:07 IST" duration-ms="9646" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyOpenAccount -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.vit.bankingManagement.tests.OpenAccountTest@5fb759d6]" started-at="2026-05-26T07:33:07 IST" name="tearDown" finished-at="2026-05-26T07:33:07 IST" duration-ms="380" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.vit.bankingManagement.tests.OpenAccountTest -->
+      <class name="com.vit.bankingManagement.tests.FetchUserAPITest">
+        <test-method signature="verifyFetchUserAPI()[pri:10, instance:com.vit.bankingManagement.tests.FetchUserAPITest@15888343]" started-at="2026-05-26T07:34:42 IST" name="verifyFetchUserAPI" finished-at="2026-05-26T07:34:42 IST" duration-ms="596" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyFetchUserAPI -->
+      </class> <!-- com.vit.bankingManagement.tests.FetchUserAPITest -->
+      <class name="com.vit.bankingManagement.tests.LoginTest">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.vit.bankingManagement.tests.LoginTest@57bc27f5]" started-at="2026-05-26T07:32:48 IST" name="setUp" finished-at="2026-05-26T07:32:51 IST" duration-ms="2423" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="verifyLogin()[pri:3, instance:com.vit.bankingManagement.tests.LoginTest@57bc27f5]" started-at="2026-05-26T07:32:51 IST" name="verifyLogin" finished-at="2026-05-26T07:32:54 IST" duration-ms="3739" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyLogin -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.vit.bankingManagement.tests.LoginTest@57bc27f5]" started-at="2026-05-26T07:32:54 IST" name="tearDown" finished-at="2026-05-26T07:32:55 IST" duration-ms="399" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.vit.bankingManagement.tests.LoginTest -->
+      <class name="com.vit.bankingManagement.tests.TransactionHistoryTest">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.vit.bankingManagement.tests.TransactionHistoryTest@68c9d179]" started-at="2026-05-26T07:34:27 IST" name="setUp" finished-at="2026-05-26T07:34:30 IST" duration-ms="2590" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="verifyTransactionHistory()[pri:7, instance:com.vit.bankingManagement.tests.TransactionHistoryTest@68c9d179]" started-at="2026-05-26T07:34:30 IST" name="verifyTransactionHistory" finished-at="2026-05-26T07:34:36 IST" duration-ms="6318" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyTransactionHistory -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.vit.bankingManagement.tests.TransactionHistoryTest@68c9d179]" started-at="2026-05-26T07:34:36 IST" name="tearDown" finished-at="2026-05-26T07:34:36 IST" duration-ms="383" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.vit.bankingManagement.tests.TransactionHistoryTest -->
+      <class name="com.vit.bankingManagement.tests.NegativeRegistrationTest">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.vit.bankingManagement.tests.NegativeRegistrationTest@5c7933ad]" started-at="2026-05-26T07:32:42 IST" name="setUp" finished-at="2026-05-26T07:32:44 IST" duration-ms="2470" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="verifyMandatoryFieldValidation()[pri:2, instance:com.vit.bankingManagement.tests.NegativeRegistrationTest@5c7933ad]" started-at="2026-05-26T07:32:44 IST" name="verifyMandatoryFieldValidation" finished-at="2026-05-26T07:32:48 IST" duration-ms="3681" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyMandatoryFieldValidation -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.vit.bankingManagement.tests.NegativeRegistrationTest@5c7933ad]" started-at="2026-05-26T07:32:48 IST" name="tearDown" finished-at="2026-05-26T07:32:48 IST" duration-ms="371" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.vit.bankingManagement.tests.NegativeRegistrationTest -->
+      <class name="com.vit.bankingManagement.tests.UIAPIIntegrationTest">
+        <test-method signature="verifyUIAPIIntegration()[pri:11, instance:com.vit.bankingManagement.tests.UIAPIIntegrationTest@33ecda92]" started-at="2026-05-26T07:34:42 IST" name="verifyUIAPIIntegration" finished-at="2026-05-26T07:34:43 IST" duration-ms="878" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyUIAPIIntegration -->
+      </class> <!-- com.vit.bankingManagement.tests.UIAPIIntegrationTest -->
+      <class name="com.vit.bankingManagement.tests.RegistrationTest">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.vit.bankingManagement.tests.RegistrationTest@65987993]" started-at="2026-05-26T07:32:24 IST" name="setUp" finished-at="2026-05-26T07:32:33 IST" duration-ms="8600" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="verifyCustomerRegistration()[pri:1, instance:com.vit.bankingManagement.tests.RegistrationTest@65987993]" started-at="2026-05-26T07:32:33 IST" name="verifyCustomerRegistration" finished-at="2026-05-26T07:32:41 IST" duration-ms="8256" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyCustomerRegistration -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.vit.bankingManagement.tests.RegistrationTest@65987993]" started-at="2026-05-26T07:32:41 IST" name="tearDown" finished-at="2026-05-26T07:32:42 IST" duration-ms="456" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.vit.bankingManagement.tests.RegistrationTest -->
+      <class name="com.vit.bankingManagement.tests.CreateUserAPITest">
+        <test-method signature="verifyCreateUserAPI()[pri:9, instance:com.vit.bankingManagement.tests.CreateUserAPITest@2dfaea86]" started-at="2026-05-26T07:34:41 IST" name="verifyCreateUserAPI" finished-at="2026-05-26T07:34:42 IST" duration-ms="1038" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyCreateUserAPI -->
+      </class> <!-- com.vit.bankingManagement.tests.CreateUserAPITest -->
+      <class name="com.vit.bankingManagement.tests.TransferFundsTest">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.vit.bankingManagement.tests.TransferFundsTest@4b8d604b]" started-at="2026-05-26T07:33:07 IST" name="setUp" finished-at="2026-05-26T07:33:10 IST" duration-ms="2419" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="verifyFundTransfer()[pri:5, instance:com.vit.bankingManagement.tests.TransferFundsTest@4b8d604b]" started-at="2026-05-26T07:33:10 IST" name="verifyFundTransfer" finished-at="2026-05-26T07:33:21 IST" duration-ms="11691" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyFundTransfer -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.vit.bankingManagement.tests.TransferFundsTest@4b8d604b]" started-at="2026-05-26T07:33:21 IST" name="tearDown" finished-at="2026-05-26T07:33:22 IST" duration-ms="389" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.vit.bankingManagement.tests.TransferFundsTest -->
+      <class name="com.vit.bankingManagement.tests.NegativeTransferTest">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.vit.bankingManagement.tests.NegativeTransferTest@5e7cd6cc]" started-at="2026-05-26T07:33:22 IST" name="setUp" finished-at="2026-05-26T07:33:24 IST" duration-ms="2625" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="verifyInvalidTransferAmount()[pri:6, instance:com.vit.bankingManagement.tests.NegativeTransferTest@5e7cd6cc]" started-at="2026-05-26T07:33:24 IST" name="verifyInvalidTransferAmount" finished-at="2026-05-26T07:34:26 IST" duration-ms="62115" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyInvalidTransferAmount -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.vit.bankingManagement.tests.NegativeTransferTest@5e7cd6cc]" started-at="2026-05-26T07:34:26 IST" name="tearDown" finished-at="2026-05-26T07:34:27 IST" duration-ms="477" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.vit.bankingManagement.tests.NegativeTransferTest -->
+      <class name="com.vit.bankingManagement.tests.AuthAPITest">
+        <test-method signature="verifyLoginAPI()[pri:8, instance:com.vit.bankingManagement.tests.AuthAPITest@d554c5f]" started-at="2026-05-26T07:34:36 IST" name="verifyLoginAPI" finished-at="2026-05-26T07:34:41 IST" duration-ms="4437" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyLoginAPI -->
+      </class> <!-- com.vit.bankingManagement.tests.AuthAPITest -->
+    </test> <!-- Banking Management Tests -->
+  </suite> <!-- Enterprise Banking Suite -->
+</testng-results>

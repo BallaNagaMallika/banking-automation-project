@@ -1,0 +1,11 @@
+com\vit\bankingManagement\tests\FetchUserAPITest.class
+com\vit\bankingManagement\tests\LoginTest.class
+com\vit\bankingManagement\tests\OpenAccountTest.class
+com\vit\bankingManagement\tests\NegativeRegistrationTest.class
+com\vit\bankingManagement\tests\RegistrationTest.class
+com\vit\bankingManagement\tests\TransferFundsTest.class
+com\vit\bankingManagement\tests\TransactionHistoryTest.class
+com\vit\bankingManagement\tests\AuthAPITest.class
+com\vit\bankingManagement\tests\NegativeTransferTest.class
+com\vit\bankingManagement\tests\UIAPIIntegrationTest.class
+com\vit\bankingManagement\tests\CreateUserAPITest.class
